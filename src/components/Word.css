@@ -1,0 +1,118 @@
+.cnt {
+    display: flex;
+    width: 80%;
+    margin-top: 26px;
+    margin-bottom: 45px;
+}
+
+.info {
+    margin-top: 16px;
+    width : 100% ;
+}
+
+.int {
+    display: flex;
+    width: 1800px;
+
+    margin-right: 10px;
+    height: 40px;
+    padding: var(--spacing-md, 8px) var(--spacing-lg, 12px);
+    align-items: center;
+    gap: var(--spacing-md, 8px);
+    flex: 1 0 0;
+
+    border-radius: var(--radius-sm, 6px);
+    border: 1px solid var(--Grey-300, #D2D6DB);
+    background: var(--Grey-25, #FCFCFD);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+
+    color: #111927;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    
+}
+
+
+.btn {
+    margin-left: 50px;
+
+    border-radius: 4px;
+    background: var(--Primary-Light-PrimaryLight-5, #731EE2);
+    color: rgba(255, 255, 255, 1);
+}
+
+.statistics-row {
+    display: flex;
+    width: 640px;
+    height: 44px;
+
+    background: var(--Base-White, #FFF);
+}
+
+.statistics-column {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--Grey-500, #6C737F);
+}
+
+
+
+:root {
+    --Grey-900: #111927;
+}
+
+:root {
+    --Grey-900: #111927;
+    --Grey-25: #FCFCFD;
+}
+
+.details {
+    margin-top: 100px;
+    padding: 20px;
+    border: 1px solid var(--Grey-900);
+    border-radius: 8px;
+    background: var(--Grey-25);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    max-width: 1500px;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.details-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.details-row {
+    /* Remove or adjust the following line to control the horizontal lines */
+    /* border-bottom: 1px solid var(--Grey-900); */
+}
+
+.details-column {
+    padding: 15px;
+    font-size: 16px;
+    color: var(--Grey-900);
+}
+
+.details-column:first-child {
+    font-weight: bold;
+    width: 40%;
+}
+
+.details-column:last-child {
+    width: 60%;
+}
+
+/* Add additional styling as needed */
