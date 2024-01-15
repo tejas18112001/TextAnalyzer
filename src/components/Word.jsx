@@ -94,28 +94,32 @@ const Word = () => {
             </div>
 
 
-            <div className="details">
-                <table className="details-table">
-                    <tbody>
-                        <tr className="details-row">
-                            <td className="details-column">Definition:</td>
-                            <td className="details-column">{def}</td>
-                        </tr>
-                        <tr className="details-row">
-                            <td className="details-column">Part of Speech:</td>
-                            <td className="details-column">{partOfSpeech}</td>
-                        </tr>
-                        <tr className="details-row">
-                            <td className="details-column">Synonyms:</td>
-                            <td className="details-column">{synonyms}</td>
-                        </tr>
-                        <tr className="details-row">
-                            <td className="details-column">Antonyms:</td>
-                            <td className="details-column">{antonyms}</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            {loading ? (
+                <p>Loading...</p>
+            ) : (
+                <div className="details">
+                    <table className="details-table">
+                        <tbody>
+                            <tr className="details-row">
+                                <td className="details-column">Definition:</td>
+                                <td className="details-column">{def}</td>
+                            </tr>
+                            <tr className="details-row">
+                                <td className="details-column">Part of Speech:</td>
+                                <td className="details-column">{partOfSpeech}</td>
+                            </tr>
+                            <tr className="details-row">
+                                <td className="details-column">Synonyms:</td>
+                                <td className="details-column">{synonyms}</td>
+                            </tr>
+                            <tr className="details-row">
+                                <td className="details-column">Antonyms:</td>
+                                <td className="details-column">{antonyms}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            )}
 
 
         </div>
