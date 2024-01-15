@@ -21,7 +21,7 @@ const StatisticsDisplay = ({ content }) => {
     const sentences = text.split(/[.!?]+/).filter((sentence) => sentence !== '').length;
     const paragraphs = text.split('\n\n').filter((paragraph) => paragraph !== '').length;
     const spaces = text.split(' ').length - 1;
-    const punctuations = text.split(/[.,;:!?(){}\[\]\-–"'\`]/).filter((punct) => punct !== '').length;
+    const punctuations = text.split(/[.,;:!?(){}\[\]\-–"'"`]/).filter((punct) => punct !== '').length;
 
     setStatistics({
       characters,
