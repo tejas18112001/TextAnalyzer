@@ -77,7 +77,7 @@
 .details {
     margin-top: 60px;
     padding: 20px;
-    height: 250px;
+    /* height: 250px; */
     border: 1px solid var(--Grey-900);
     border-radius: 8px;
     background: var(--Grey-25);
