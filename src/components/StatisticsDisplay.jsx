@@ -1,7 +1,3 @@
-
-
-// StatisticsDisplay.js
-
 import React, { useEffect, useState } from 'react';
 import './statistics.css';
 
